@@ -26,6 +26,15 @@ export default function AppNavigator() {
             Pokedex
           </Typography>
         </Link>
+        <Link to="/favourites" className={classes.link}>
+          <Typography
+            className={classes.title}
+            variant="h6"
+            style={{ marginLeft: 20 }}
+          >
+            Favourites
+          </Typography>
+        </Link>
       </Toolbar>
     </AppBar>
   );
